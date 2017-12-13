@@ -31,13 +31,15 @@
 
   Composition allows us to design our program so that you are able to pull in another class and it's properties and use them. In composition, the relationship between the two classes are dependent.
 
+  Compose or design our code using the behaviours of classes.
+
 - When would you use composition? Provide a simple example in Java.
 
   You would use composition when many different classes contain the same method that may act in a different way. When composing we don't care how those classes enact the method as long as they give back what we want. For example if we had a Shop class, we could pull in a interface of Stock that contain lots of different Clothes classes but which all have the tryOn method. We can then implement that method in our Shop class. The clothes cannot exist without the Shop though.
 
 - What is/are the advantage(s) of using composition?
 
-  It means you can use the methods and properties of another class in the class you are in which means that more methods are avaialable to you and so you can have more functionality.
+  It means you can use the methods and properties of another class in the class you are in which means that more methods are available to you and so you can have more functionality.
 
 - What happens to the behaviours when the object composed of them is destroyed?
 
